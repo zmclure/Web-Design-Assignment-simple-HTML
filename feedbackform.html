@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- This file contains code to generate a form where the user fills out a text area and selects a radio button to determine how cute they think the dog is. -->
+
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Skye the Dog</title>
+   </head>
+
+   <body>
+	  <center>
+	     <p>
+			<a href = "index.html">
+			   <img src = "Buttons/home.png" width = "125" height = "100" alt = "Home">
+			</a>
+			
+			<a href = "growth.html">
+			   <img src = "Buttons/growth.png" width = "125" height = "100" alt = "Growth">
+			</a>
+			
+			<a href = "breed.html">
+			   <img src = "Buttons/breed.png" width = "125" height = "100" alt = "Breed">
+			</a>
+			
+			<a href = "feedbackform.html">
+			   <img src = "Buttons/feedback.png" width = "125" height = "100" alt = "Feedback">
+			</a>
+			
+			<a href = "links.html">
+			   <img src = "Buttons/links.png" width = "125" height = "100" alt = "Links">
+			</a>
+	     </p>
+	  </center>
+   
+      <h1>A Survey on Skye</h1>
+
+      <form method = "post" action = "http://www.deitel.com">
+
+         <p><label>What are your thoughts on Skye?:<br>
+            <textarea name = "comments" rows = "4" cols = "36"></textarea>
+         </label></p>             
+
+         <p>
+            <strong>How cute do you think Skye is?:</strong><br>
+
+			<input name = "cutebutton" type = "radio" value = "Cute" checked></label>
+            <label>Cute  
+			<br>
+			
+			<input name = "cutebutton" type = "radio" value = "Very Cute"></label> 
+            <label>Very Cute  
+			<br>
+			
+			<input name = "cutebutton" type = "radio" value = "Cute As a Button"></label>
+            <label>Cute As a Button
+		    <br>
+			
+			<input name = "cutebutton" type = "radio" value = "Cutest Puppy Ever"></label>
+            <label>Cutest Puppy Ever
+			<br>
+         </p>
+
+         <p>
+            <input type = "submit" value = "Submit">
+            <input type = "reset" value = "Clear">
+         </p>   
+      </form>
+   </body>
+</html>
